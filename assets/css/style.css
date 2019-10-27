@@ -13,7 +13,7 @@ img{
     background: rgba(255, 255, 255, 1);  
 }
 #mainMenu{
-    background: rgba(255, 255, 255, 1);
+    background: black;
         box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
             border: 0;
             border-radius: 0;
@@ -28,7 +28,7 @@ img{
 #mainMenu .navbar-nav li.active a, #mainMenu  .navbar-nav li:hover a {
     background: transparent;
     padding-top: 37px;
-    border-top: 3px solid #45aed6;
+    border-top: 3px solid #30223c;
 }
 #mainMenu .navbar-nav li a {
     padding-top: 40px;
@@ -45,7 +45,7 @@ img{
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
-    color: #45aed6;}
+    color: #30223c;}
     #firstSec .btn {
         margin-top: 40px;
     }
@@ -53,21 +53,21 @@ h1, h2, h3, h4, h5, h6 {
         padding: 100px 0;
     }
     .publicbtn {
-        background: #45aed6;
-        border-color: #45aed6;
+        background: #30223c;
+        border-color: #30223c;
         border-width: 0;
     border-bottom-width: 3px;
     border-radius: 3px;
     }
     .publicbtn:hover {
-        background: #45aed6 !important;}
+        background: #30223c !important;}
         .heading {
             margin-bottom: 50px;
         }
         
         .heading .sectionTitle {
             font-size: 44px;
-            color: #45aed6;
+            color: #30223c;
             text-transform: uppercase;
             position: relative;
             padding-bottom: 20px;
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
             margin-left: -12px;
             border: 5px solid #fff;
             border-radius: 20px;
-            background: #45aed6;
+            background: #30223c;
         }
         .marginTop{
             margin:25px 0;
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
                 text-align: center;
                 width: 65px;
                 border-radius: 50%;
-                color: #45aed6;
+                color: #30223c;
                 box-shadow: inset 0 0 0 1px #d7d7d7;
                 transition: background-color 400ms, background-color 400ms;
                 position: relative;
@@ -132,10 +132,10 @@ h1, h2, h3, h4, h5, h6 {
                 right: -10px;
                 border: 4px solid #fff;
                 border-radius: 20px;
-                background: #45aed6;
+                background: #30223c;
             }
             .FeaturesItem:hover i{
-                background-image: linear-gradient(90deg, #2caab3  0%, #45aed6 100%);
+                background-image: linear-gradient(90deg, #8167ac  0%, #30223c 100%);
                 color:white;
                 box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8)
             }
@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 44px;
             }
             .downloadTitle span {
-                color: #45aed6;
+                color: #30223c;
             }
         #downloadSec .publicbtn{
     
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 4px 0 0 4px;
 }
 .portfolioTaps li a:hover,.portfolioTaps li a.active {
-    background: #45aed6;
+    background: #30223c;
     color: #fff;
     box-shadow: 0 -3px 0 0 #318daf inset;
     -webkit-box-shadow: 0 -3px 0 0 #318daf inset;
@@ -232,7 +232,7 @@ transition: opacity .4s;
     position: absolute;
     top: -18px;
     right: 12px;
-    background-image: linear-gradient(90deg, #2caab3  0%, #45aed6 100%);
+    background-image: linear-gradient(90deg, #8167ac  0%, #30223c 100%);
     width: 34px;
     height: 34px;
     line-height: 34px;
@@ -285,7 +285,7 @@ line-height: 34px;
     bottom: -1px;
     left: 0;
     width: 40%;
-    border-bottom: 1px solid #45aed6;
+    border-bottom: 1px solid #30223c;
 }
 #about ul{
 list-style-type: none;
@@ -293,7 +293,7 @@ padding:0;
 margin-bottom:20px;
  }
  #about ul i{
-     color:#45aed6;
+     color:#30223c;
  }
  #workProcess{
      background-image:url("../images/workprocess.jpg");
@@ -308,7 +308,7 @@ margin-bottom:20px;
  .BorderdIcon{
      width:80px;
      height:80px;
-     border:2px solid #45aed6;
+     border:2px solid #f3f3f3;
      color:white;
      border-radius: 50%;
      position: relative;
@@ -319,9 +319,9 @@ margin-bottom:20px;
      line-height: 80px;;
  }
  .BorderdIcon span{
-  color:#45aed6;
+  color:#30223c;
   background-color:white;
-  border:2px solid #45aed6;
+  border:2px solid #30223c;
   position: absolute;
   top: -11px;
   left: 34%;
@@ -353,7 +353,7 @@ margin-bottom:20px;
 }
  #team .card:hover  .card-body {
 
-    border-color: #45aed6; 
+    border-color: #30223c; 
 }
 .socialIcons{
     list-style: none;
@@ -368,16 +368,18 @@ width:30px;
 height:30px;
 border-radius:4px;
 display: inline-block;
-background-color: #45aed6;
+background-color:white ;
 text-align: center;
 display: block;
-color:white;
+color:#30223c;
+
 }
 .socialIcons li a i{
     line-height: 30px;
 }
 #team .card:hover .socialIcons li a{
-background-color: #45aed6; 
+background-color: #30223c; 
+color:white;
 }
 #team{
     padding:100px 0;
@@ -394,7 +396,7 @@ background-color: #45aed6;
     background: #eeeeee;
 }
 .progress-bar{
-background-color:#45aed6;
+background-color:#30223c;
 }
 .tab-content {
     border: 1px solid #eee;
@@ -406,14 +408,14 @@ background-color:#45aed6;
     border-radius: 3px 0 0 0;
 }
 .nav.main-tab li a {
-    color: #45aed6;
+    color: #30223c;
 }
 .nav.main-tab li.active a {
-    background-color: #45aed6;
-    color: black;}
+    background-color: #30223c;
+    color: white;}
 .nav.main-tab {
     background: #eee;
-    border-bottom: 3px solid #45aed6;
+    border-bottom: 3px solid #30223c;
     border-radius: 3px 3px 0 0;
 }
 .panel-heading {
@@ -475,7 +477,7 @@ margin:25px 0;
     display: inline-block;
     width: 115px;
     height: 115px;
-    background-image: linear-gradient(45deg, #2caab3  0%, #45aed6 100%);
+    background-image: linear-gradient(45deg, #8167ac  0%, #30223c 100%);
     color: white;
     border-radius: 50%;
     border: 5px solid #f6f6f6;
@@ -488,7 +490,7 @@ margin:25px 0;
 .Name{
     margin-top: 10px;
     font-size: 24px;
-    color: #45aed6;
+    color: #30223c;
     font-weight: bold;
     line-height: 1;
     text-transform: uppercase;
@@ -515,12 +517,27 @@ margin:25px 0;
     padding:80px 0;
 }
 .PriceBox.colored{
-    background: #45aed6;
+    background: #30223c;
     color: #fff;
     border: 0;
 }
+.PriceBox.colored .publicbtn{
+    background-color: white;
+    color:#30223c
+}
+ .publicbtn:hover{
+    border-bottom:3px solid #5e4078;
+  
+}
+.PriceBox.colored .publicbtn:hover{
+    color:white;
+
+    border-bottom: 0;
+    border:1px solid white;
+    
+}
 .PriceBox.colored .topPrice{
-    background-image: linear-gradient(45deg, #2caab3  0%, #45aed6 100%);
+    background-image: linear-gradient(45deg, #8167ac  0%, #30223c 100%);
 }
 #testimonial{
     padding:100px 0;
@@ -549,7 +566,7 @@ margin:25px 0;
     right: 20px;
     bottom: -33px;
     text-align: center;
-    background: #45aed6;
+    background: #30223c;
     border: 3px solid #fff;
     border-radius: 100px;
 }
@@ -567,7 +584,7 @@ font-size:20px;
     display: block;
     margin-bottom: 5px;
     text-transform: uppercase;
-    color: #45aed6;
+    color: #30223c;
 }
 .blog-body .blogtitle{
     margin-top: 0;
@@ -580,7 +597,7 @@ font-size:20px;
     text-decoration: none;
 }
 .blog-body .blogtitle a:hover{
-    color: #45aed6;
+    color: #30223c;
 }
 .blogBox.verticalBox .blogImg{
     width:50%;
@@ -616,7 +633,7 @@ font-size:20px;
 }
 .contactHeader{
     padding: 100px 0 50px;
-    background-image: linear-gradient(45deg, #2caab3  0%, #45aed6 100%);
+    background-image: linear-gradient(45deg, #8167ac  0%, #30223c 100%);
     color: #fff;
 
 }
@@ -653,7 +670,7 @@ textarea{
 #footer{
     padding: 30px 0;
     color: white;
-    background: #45aed6;
+    background: #30223c;
 }
 
 .footerIcons{
@@ -675,10 +692,10 @@ margin:0 7px;
     width:20% !important
 }
 #footer a:hover{
-    color: #45aed6;
+    color: #8d34d9;
 }
 .socialHeader{
-    background-color:#45aed6;
+    background-color:#262826;
     padding:10px;
 }
 .lognSec{
@@ -696,7 +713,7 @@ margin:0 7px;
     background-color:white;
 }
 .lognSec h3:hover a{
-    color:#45aed6
+    color:#30223c
 }
 .lognSec h3 a{
 color:white;
@@ -763,7 +780,7 @@ color:black;
 .loginHeader{
     font-size:16px;
     margin-bottom: 20px;
-    color:#45aed6;
+    color:#30223c;
 }
 .publicbtn.login {
     padding:10px 20px;
@@ -773,7 +790,7 @@ color:black;
     font-size:14px;
 }
 .lostPassword:hover{
-    color:#45aed6;
+    color:#30223c;
     text-decoration:none;
 }
 .form-label{
@@ -807,7 +824,7 @@ font-size:12px;
 .loginIcons.footerIcons li a{
     color:white;
 
-    color: #45aed6;
+    color: #30223c;
 }
 #remember{
     margin-left:20px;
@@ -918,7 +935,7 @@ color:white;
     margin:10px 0;
 }
 .blogTags li:hover a{
-    background-color:#45aed6 !important;
+    background-color:#30223c !important;
     color:white;
 }
 
